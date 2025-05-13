@@ -7,17 +7,74 @@
 </head>
 <body>
 
+    <button><a href="index.html">Voltar para a página principal</a></button>
+
     <fieldset>
 
         <legend>Cadastro clientes</legend>
 
         <form action="post">
 
-            <input type="text" value="nome" >
+            <label for="nome">Nome: </label>
+            <input type="text" placeholder="Nome" id="nome">
+
+            <br>
+
+            <label for="email">Email: </label>
+            <input type="email" placeholder="Email" id="email">
+
+            <br>
+
+            <label for="cpf">CPF: </label>
+            <input type="number" placeholder="CPF" id="cpf">
 
         </form>
 
     </fieldset>
+
+    <br>
+
+ <table style="border: 2px solid black;">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>CPF</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Valor de teste</td>
+            <td>Valor de teste</td>
+            <td>Valor de teste</td>
+        </tr>
+        <tr>
+            <td>Valor de teste</td>
+            <td>Valor de teste</td>
+            <td>Valor de teste</td>
+        </tr>
+        <tr>
+            <td>Valor de teste</td>
+            <td>Valor de teste</td>
+            <td>Valor de teste</td>
+        </tr>
+        <tr>
+            <td>Valor de teste</td>
+            <td>Valor de teste</td>
+            <td>Valor de teste</td>
+        </tr>
+  </tbody>
+</table>
+
+<br>
+
+<button>Inserir cliente</button>
+<button>Alterar informações</button>
+
+<br>
+
+<button>Excluir cliente</button>
+<button>Consultar cliente</button>
 
 </body>
 </html>
